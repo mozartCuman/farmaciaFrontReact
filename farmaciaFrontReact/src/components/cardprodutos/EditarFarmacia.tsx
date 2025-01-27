@@ -1,8 +1,8 @@
 // components/CardProdutos/EditarFarmacia.tsx
 import { useState, useEffect } from 'react';
-import { getFarmaciaById, updateFarmacia } from './farmaciaService';
+import { getFarmaciaById, updateFarmacia } from '../../service/farmaciaService' ;
 import { useParams } from 'react-router-dom';
-import Farmacia from '../../models/Farmacia';
+import Farmacia from '../../models/Produto';
 
 function EditarFarmacia() {
   const { id } = useParams<{ id: string }>();

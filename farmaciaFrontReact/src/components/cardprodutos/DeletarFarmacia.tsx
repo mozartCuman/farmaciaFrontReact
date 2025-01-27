@@ -1,7 +1,7 @@
 // components/CardProdutos/DeletarFarmacia.tsx
 import { useEffect, useState } from 'react';
-import { deleteFarmacia, getFarmacias } from './farmaciaService';
-import Farmacia from '../../models/Farmacia';
+import { deleteFarmacia, getFarmacias } from '../../service/farmaciaService' ;
+import Farmacia from '../../models/Produto';
 
 function DeletarFarmacia() {
   const [farmacias, setFarmacias] = useState<Farmacia[]>([]);

@@ -1,5 +1,5 @@
 import axios from 'axios';
-import Farmacia from '../../../models/Farmacia';
+import Farmacia from '../models/Produto';
 
 const API_URL = 'http://localhost:5000/farmacias';
 

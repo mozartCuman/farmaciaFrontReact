@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
-import Farmacia from '../../models/Farmacia';
+
 import { ReactNode } from 'react';
+import Farmacia from '../../models/Produto';
 
 interface CardProdutosProps {
     farmacia: Farmacia;

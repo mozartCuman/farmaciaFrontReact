@@ -1,14 +1,15 @@
 // components/CardProdutos/CriarFarmacia.tsx
 import { useState } from 'react';
-import { createFarmacia } from './farmaciaService';
-import Farmacia from '../../models/Farmacia';
+import { createFarmacia} from '../../service/farmaciaService' ;
+import Farmacia from '../../models/Produto';
+
 
 function CriarFarmacia() {
   const [titulo, setTitulo] = useState('');
   const [texto, setTexto] = useState('');
 
   const handleSubmit = () => {
-    const novaFarmacia: Farmacia = { id: 0, titulo, texto, data: new Date().toISOString() };
+    const novaFarmacia: Farmacia = { id: 0, titulo, texto: new Date().toISOString() };
     createFarmacia(novaFarmacia).then(() => {
       // Sucesso na criação
     });

@@ -1,7 +1,7 @@
 // components/CardProdutos/ListaFarmacias.tsx
 import { useEffect, useState } from 'react';
-import { getFarmacias } from './farmaciaService';
-import Farmacia from '../../models/Farmacia';
+import { getFarmacias } from '../../service/farmaciaService' ;;
+import Farmacia from '../../models/Produto';
 import CardProdutos from './CardProdutos';
 
 function ListaFarmacias() {
