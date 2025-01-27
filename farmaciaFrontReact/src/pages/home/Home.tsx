@@ -22,7 +22,7 @@ function Home() {
                         <img
                             src={myImage}
                             alt="Imagem da Página Home"
-                            className='w-full h-48 object-cover rounded-full transition duration-300 ease-in-out transform hover:scale-110'
+                            className='w-full h-auto max-h-screen object-cover rounded-full transition duration-300 ease-in-out transform hover:scale-110'
                         />    
                     </div>
                 </div>
