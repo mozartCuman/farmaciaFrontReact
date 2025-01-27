@@ -13,8 +13,8 @@ function Navbar() {
                         <Link to='/home' className="hover:text-blue-300 transition duration-300 ease-in-out transform hover:scale-105">
                             Home
                         </Link>
-                        <Link to='/produtos' className="hover:text-blue-300 transition duration-300 ease-in-out transform hover:scale-105">
-                            Produtos
+                        <Link to='/categorias' className="hover:text-blue-300 transition duration-300 ease-in-out transform hover:scale-105">
+                            Categorias
                         </Link>
                     </div>
                 </div>

@@ -1,9 +1,9 @@
+import Categoria from './Categoria';
 
-
-
-export default interface Farmacia {
+export default interface Produto {
     id: number;
-    titulo: string;
-    texto: string;
+    nome: string;
+    preco: number;
+    validade: string;
+    categoria: Categoria | null;
 }
-
